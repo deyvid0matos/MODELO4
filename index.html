@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTIFOLIO</title>
+    <link rel="icon" href="images/icone.ico" type="image/x-icon">
+
+    <!-- ICONES -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER DESIGN-->
+    <header class="header">
+                <img src="images/logo_SanLog.png" alt="Logo SanLog" width="150">
+        <!-- INSERIR ICONES -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#portifolio">Unidades</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <!-- SEÇÃO INICIAL -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, Seja bem vindo.</h3>
+            <h1>Somos a SanLog,</h1>
+            <h3><span class="multiple-text"></span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis recusandae provident deserunt amet
+                accusantium fuga inventore ab.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="contato.html" class="btn" download>Fale Conosco</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/logo_SanLog.png" alt="">
+        </div>
+    </section>
+    <!-- SEÇÃO SOBRE -->
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <img src="images/UN.png" alt="">
+        </div>
+
+        <div class="sobre-content">
+            <h2 class="heading">Quem <span>eu sou</span></h2>
+            <h3>Desenvolvedor Frontend!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque numquam at esse obcaecati beatae
+                voluptate perspiciatis eos fugit fugiat eius,
+                laudantium quo provident ea tempore sapiente.
+                Corrupti repellat error laborum quas modi aliquid numquam quo sit dolorem sapiente consequuntur
+                accusamus suscipit ab eaque,
+                recusandae beatae enim?</p>
+        </div>
+        
+    </section>
+    <!-- SEÇÃO SERVIÇOS -->
+    <section class="servicos" id="servicos">
+        <h2 class="heading"> Nossos <span>Números.</span></h2>
+
+        <div class="container-contagem">
+            <!-- Box 1 -->
+            <div class="box-contagem" data-target="10000">
+              <div class="icone-contagem"><i class='bx bx-package'></i></div>
+              <div class="contador-contagem">0</div>
+              <div class="titulo-contagem">ENTREGAS</div>
+            </div>
+        
+            <!-- Box 2 -->
+            <div class="box-contagem" data-target="750">
+              <div class="icone-contagem"><i class='bx bxs-face'></i></div>
+              <div class="contador-contagem">0</div>
+              <div class="titulo-contagem">COLABORADORES</div>
+            </div>
+        
+            <!-- Box 3 -->
+            <div class="box-contagem" data-target="500">
+              <div class="icone-contagem"><i class='bx bxs-map' ></i></div>
+              <div class="contador-contagem">0</div>
+              <div class="titulo-contagem">UNIDADES</div>
+            </div>
+        
+            <!-- Box 4 -->
+            <div class="box-contagem" data-target="9000">
+              <div class="icone-contagem"><i class='bx bx-trip'></i></div>
+              <div class="contador-contagem">0</div>
+              <div class="titulo-contagem">KM MÊS</div>
+            </div>
+          </div>
+        
+        <!-- 
+          
+        <div class="filters">
+            <button onclick="selecionarTodas()">Ver Todas</button>
+            <button onclick="selecionarImagem(0)">UNIDADE 1</button>
+            <button onclick="selecionarImagem(1)">UNIDADE 2</button>
+            <button onclick="selecionarImagem(2)">UNIDADE 3</button>
+            <button onclick="selecionarImagem(3)">UNIDADE 4</button>
+            <button onclick="selecionarImagem(4)">UNIDADE 5</button>
+            <button onclick="selecionarImagem(5)">UNIDADE 6</button>
+        </div>
+    
+           Carrossel de imagens
+          <div class="carousel-container" id="carousel-container">
+            <div class="carousel-images">
+              <img src="images/UN.png" alt="UNIDADE 1">
+              <img src="images/UN.png" alt="UNIDADE 2">
+              <img src="images/UN.png" alt="UNIDADE 3">
+              <img src="images/UN.png" alt="UNIDADE 3">
+              <img src="images/UN.png" alt="UNIDADE 3">
+              <img src="images/UN.png" alt="UNIDADE 3">
+            </div>
+            <button class="prev" onclick="mudarImagem(-1)">&#10094;</button>
+            <button class="next" onclick="mudarImagem(1)">&#10095;</button>
+          </div>
+        
+        
+           Galeria de imagens 
+          <div class="gallery" id="gallery"></div> -->
+    </section>  
+
+    <!-- SEÇÃO PORTIFOLIO -->
+    <section class="portifolio" id="portifolio">
+        <h2 class="heading">Nossas <span>Unidades.</span></h2>
+
+        <div class="portifolio-container">
+            <div class="portifolio-box">
+                <img src="images/UN.png" alt="">
+                <div class="portifolio-layer">
+                    <h4>UNIDADE 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portifolio-box">
+                <img src="images/UN.png" alt="">
+                <div class="portifolio-layer">
+                    <h4>UNIDADE 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portifolio-box">
+                <img src="images/UN.png" alt="">
+                <div class="portifolio-layer">
+                    <h4>UNIDADE 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portifolio-box">
+                <img src="images/UN.png" alt="">
+                <div class="portifolio-layer">
+                    <h4>UNIDADE 4</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portifolio-box">
+                <img src="images/UN.png" alt="">
+                <div class="portifolio-layer">
+                    <h4>UNIDADE 5</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portifolio-box">
+                <img src="images/UN.png" alt="">
+                <div class="portifolio-layer">
+                    <h4>UNIDADE 6</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nemo!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SEÇÃO DE MAPA -->
+
+      <section class="mapa" id="mapa">
+        <h2 class="heading">Nossa <span>Localização!</span></h2>
+      
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31200.132080695126!2d-43.227585980871154!3d-12.17927903648108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7677e53c7f8bdf9%3A0x9ce077ca41a7f0fe!2sIbotirama%2C%20BA%2C%2047520-000!5e0!3m2!1spt-BR!2sbr!4v1736985709408!5m2!1spt-BR!2sbr" 
+          width="1800" 
+          height="600" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+      </section>
+      
+     <!-- SEÇÃO DO RODAPÉ -->
+      <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Deyvid Matos | Todos os direitos reservados.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+      </footer>
+
+      <!-- SCROLL REVEAL -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <!-- EFEITO DE DIGITAR -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
